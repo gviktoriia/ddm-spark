@@ -15,7 +15,7 @@ object Sindy {
   }
 
   def discoverINDs(inputs: List[String], spark: SparkSession): Unit = {
+    import spark.implicits._
 
-    // TODO
   }
 }
